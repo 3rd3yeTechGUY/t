@@ -1,3 +1,9 @@
+import platform
+import os
+import time
+import random
+import urllib.request
+
 if userInput == username:
     userInput = input("Password?\n")   
     if userInput == password:
