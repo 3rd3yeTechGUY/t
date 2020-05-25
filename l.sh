@@ -1,8 +1,5 @@
-import platform
-import os
-import time
-import random
-import urllib.request
+#!/bin/bash 
+clear
 
 if userInput == username:
     userInput = input("Password?\n")   
