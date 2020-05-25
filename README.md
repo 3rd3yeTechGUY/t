@@ -2,12 +2,12 @@
 
 <br>
 <p align="center">
-<img width="35%" src="https://in.pinterest.com/pin/853643304359790946/"/>
+<img width="35%" src="https://i.pinimg.com/originals/93/92/55/939255731017e8a035c18bfb82c1c52b.png"/>
 </p>
 
 <p align="center">
-      Website Bitcoins Mining With Advanced Functionality
+      TERMUX BASIC PACKAGE INSTALLATION SETUP 🗂️
 </p> 
 <p align="center">
-     Bitcoin | Mining | Bot 
+     CODE BY TECH COCHI  
 </p>
