@@ -11,3 +11,8 @@
 <p align="center">
      CODE BY TECH COCHI  
 </p>
+
+
+<span class="float-left text-red tooltipped tooltipped-n" aria-label="Does not meet accessibility standards"><%= octicon("alert") %></span>
+<div class="text-green mb-2 ml-4">
+  .TECH COCHI
