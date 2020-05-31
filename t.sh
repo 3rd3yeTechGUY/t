@@ -4,4 +4,4 @@ echo 'Who are you?'
 
 read who
 
-echo "Hello, $who!"
+echo "Hello, $who!" | lolcat
