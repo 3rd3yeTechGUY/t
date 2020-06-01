@@ -14,13 +14,14 @@ echo "
       |..........  TECH COCHI  v1.0  .........|
       +---------------------------------------+" |lolcat
 sleep 1
-print "[                    ] 0% " | lolcat
-time.sleep(5)
-print "[=====               ] 25%" | lolcat
-time.sleep(5)
-print "[==========          ] 50%" | lolcat
-time.sleep(5)
-print "[===============     ] 75%" | lolcat
-time.sleep(5)
-print "[====================] 100%" | lolcat
-time.sleep(3)
+
+echo "[                    ] 0% " | lolcat
+sleep 5
+echo "[=====               ] 25%" | lolcat
+sleep 5
+echo "[==========          ] 50%" | lolcat
+sleep 5
+echo "[===============     ] 75%" | lolcat
+sleep 5
+echo "[====================] 100%" | lolcat
+sleep 3
