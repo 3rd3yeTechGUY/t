@@ -1,18 +1,18 @@
 figlet HACKER  | lolcat
 
-
-echo  "       +=======================================+" |lolcat
-echo  "       |..........  TECH COCHI  v1.0  .........|" |lolcat
-echo  "       +---------------------------------------+" |lolcat
-echo  "       |#Author   : TECH COCHI                 |" |lolcat
-echo  "       |#Instagram: tech_cochi                 |" |lolcat
-echo  "       |#Github   : rixon-cochi                |" |lolcat
-echo  "       |#YouTube  : TechCochi                  |" |lolcat
-echo  "       |     SUBSCRIBE OUR YOUTUBE CHANNEL     |" |lolcat
-echo  "       |                                       |" |lolcat
-echo  "       +=======================================+" |lolcat
-echo  "       |..........  TECH COCHI  v1.0  .........|" |lolcat
-echo  "       +---------------------------------------+" |lolcat
+echo "
+      +=======================================+
+      |..........  TECH COCHI  v1.0  .........|
+      +---------------------------------------+
+      |#Author   : TECH COCHI                 |
+      |#Instagram: tech_cochi                 |
+      |#Github   : rixon-cochi                |
+      |#YouTube  : TechCochi                  |
+      |     SUBSCRIBE OUR YOUTUBE CHANNEL     |
+      |                                       
+      +=======================================+
+      |..........  TECH COCHI  v1.0  .........|
+      +---------------------------------------+" |lolcat
 
 
 sleep 1
