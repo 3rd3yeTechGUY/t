@@ -1,4 +1,4 @@
-#usr/bin/bash
+#!/bin/bash
 clear
 b='\033[34;1m' #blue
 gr='\033[32;1m' #green
