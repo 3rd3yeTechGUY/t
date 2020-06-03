@@ -13,13 +13,13 @@ echo
 echo
 echo
 echo $gr"["$r"•"$gr"]"$m"───────────────────────────────────────────"$gr"["$r"•"$gr"]"
-echo $gr" |"$r"     TECH COCHI TERMUX MALAYALAM"$i"         |"
+echo $gr" |"$r"     TECH COCHI TERMUX MALAYALAM"$gr"                     |"
 echo $gr" |"$m"─────────────────────────────────────────────"$gr"|"
-echo $gr" |"$r" AUTHOR :"$c" TECH COCHI  [RIXON-COCHI]"$gr"          |"
-echo $gr" |"$r" TELEGRAM :"$c" TECH "$gr"                   |"
-echo $gr" |"$r" INSTAGRAM :"$c" R CODE "$gr"                   |"
+echo $gr" |"$r" AUTHOR :"$c" TECH COCHI  [RIXON-COCHI]"$gr"         |"
+echo $gr" |"$r" TELEGRAM :"$c" TECH "$gr"                           |"
+echo $gr" |"$r" INSTAGRAM :"$c" R CODE "$gr"                        |"
 echo $gr"["$r"•"$gr"]"$m"───────────────────────────────────────────"$gr"["$r"•"$gr"]"
 echo
 echo $gr"────────────────────────────────    ─────"
 echo $gr"|"$r" 1"$gr" |"$b" LUCIFER        "$gr"|"$gr"    |"
-echo $gr"|"$r" 2"$gr" |"$b" FIRECRACK        "$gr"|"$gr"    |"
+echo $gr"|"$r" 2"$gr" |"$b" FIRECRACK      "$gr"|"$gr"    |"
