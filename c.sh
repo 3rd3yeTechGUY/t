@@ -28,7 +28,7 @@ printf " \e[1;31m[\e[0m\e[1;77m09\e[0m\e[1;31m]\e[0m\e[1;93m Spotify \e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m10\e[0m\e[1;31m]\e[0m\e[1;93m Twitter \e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m11\e[0m\e[1;31m]\e[0m\e[1;93m Yahoo \e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m26\e[0m\e[1;31m]\e[0m\e[1;93m Wordpress \e[0m\n"
-printf " \e[0m\e[1;31m[\e[0m\e[1;77m x \e[0m\e[1;31m] \e[0m\e[1;93mExit\e[0m\n"
+printf " \e[0m\e[1;31m[\e[0m\e[1;77m00\e[0m\e[1;31m] \e[0m\e[1;93mExit\e[0m\n"
 printf " \e[0m\n"        
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' option
 if [[ $option == 1 || $option == 01 ]]; then
@@ -64,7 +64,7 @@ start
 elif [[ $option == 12 ]]; then
 server="wordpress"
 start
-elif [[ $option == X || $option == x ]]; then
+elif [[ $option == 0 || $option == 00 ]]; then
 exit 1
 else
 printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
