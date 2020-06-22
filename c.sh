@@ -13,6 +13,7 @@ printf " \e[33;1m | (___ | \  / | |__| | \e[0m\n"
 printf " \e[33;1m  \___ \| |\/| |  __  | \e[0m\n"
 printf " \e[33;1m  ____) | |  | | |  | | \e[0m\n"
 printf " \e[33;1m |_____/|_|  |_|_|  |_| \e[92m v1.∅ \e[0m\n"
+printf " \e[1;31m ⚠️ Code by Tech Cochi ⚠️\e[0m\n"
 printf " \n"
 }
 menu() {
