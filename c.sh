@@ -72,7 +72,7 @@ start
 elif [[ $option == 12 ]]; then
 server="wordpress"
 start
-elif [[ $option == 12 ]]; then
+elif [[ $option == 13 ]]; then
 bash update
 elif [[ $option == 0 || $option == 00 ]]; then
 exit 1
