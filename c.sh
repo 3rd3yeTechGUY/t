@@ -1,3 +1,9 @@
+#!/bin/bash
+#code recorded by tech cochi
+#youtube.com/c/techcochi
+#kochikaran
+#copy this code plz give me the credit 
+
 trap 'printf "\n";stop;exit 1' 2
 deps() {
 command -v php > /dev/null 2>&1 || { echo >&2 "PHP is not installed ! Install it."; exit 1; }
@@ -7,13 +13,13 @@ command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip is not installed ! Instal
 }
 banner() {
 clear
-printf " \e[33;1m    _____           ______  \e[0m\e[0m\e[1;92m \e[0m\n"         
-printf " \e[33;1m   / ____|         |  ____| \e[0m\e[0m\e[1;92m        .-.    _______ \e[0m\n"
-printf " \e[33;1m  | (___  _ __ ___ | |__    \e[0m\e[0m\e[1;92m       {}``; |==|_______D \e[0m\n"
-printf " \e[33;1m   \___ \| '_ ` _ \|  __|   \e[0m\e[0m\e[1;92m       / ('        /|\ \e[0m\n"
-printf " \e[33;1m   ____) | | | | | | |      \e[0m\e[0m\e[1;92m   (  /  |        / | \ \e[0m\n"
-printf " \e[33;1m  |_____/|_| |_| |_|_|      \e[0m\e[0m\e[1;92m akg\(_)_]]      /  |  \ \e[0m\n"
-printf " \e[1;31m ⚠️ Code by Tech Cochi ⚠️\e[0m\n"
+printf " \e[91m ███████╗\e[0m\e[1;92m ███╗   ███╗ \e>
+printf " \e[91m ██╔════╝\e[0m\e[1;92m ████╗ ████║ \e>
+printf " \e[91m ███████╗\e[0m\e[1;92m ██╔████╔██║ \e>
+printf " \e[91m ╚════██║\e[0m\e[1;92m ██║╚██╔╝██║ \e>
+printf " \e[91m ███████║\e[0m\e[1;92m ██║ ╚═╝ ██║ \e>
+printf " \e[91m ╚══════╝\e[0m\e[1;92m ╚═╝     ╚═╝ \e>
+printf " \e[44m   CODE RECORED BY TECH COCHI \e[0m\n"
 printf " \n"
 }
 menu() {
