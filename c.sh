@@ -1,9 +1,3 @@
-#!/bin/bash
-#code recorded by tech cochi
-#youtube.com/c/techcochi
-#kochikaran
-#copy this code plz give me the credit 
-
 trap 'printf "\n";stop;exit 1' 2
 deps() {
 command -v php > /dev/null 2>&1 || { echo >&2 "PHP is not installed ! Install it."; exit 1; }
