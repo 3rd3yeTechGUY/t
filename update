@@ -5,4 +5,7 @@ rm -rf t
 clear
 cd $HOME
 git clone https://github.com/rixon-cochi/t
-cd t 
+clear
+cd t
+bash c.sh
+ 
