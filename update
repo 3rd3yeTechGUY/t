@@ -1,0 +1,7 @@
+#!/bin/bash
+clear
+cd $HOME
+rm -rf t
+clear
+git clone https://github.com/rixon-cochi/t
+cd t 
