@@ -43,6 +43,6 @@ sleep 3.0
 echo " "
 cd $HOME
 cd SMF
-bash ighack.sh
+bash smf.sh
 clear
 sleep 1.0
