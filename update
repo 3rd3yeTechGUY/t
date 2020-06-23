@@ -34,15 +34,15 @@ echo " "
 echo -e "$grn                UPDATING THE SMF PLEASE wait$rset"
 sleep 2.0
 cd $HOME
-rm -rf SMF
-git clone https://github.com/rixon-cochi/SMF
+rm -rf t
+git clone https://github.com/rixon-cochi/t
 clear
 echo " "
 echo -e "$grn               SMF HAS BEEN UPDATED CHECK IT NOW...$rset"
 sleep 3.0
 echo " "
 cd $HOME
-cd SMF
-bash smf.sh
+cd t
+bash c.sh
 clear
 sleep 1.0
