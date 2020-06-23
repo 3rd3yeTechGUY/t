@@ -1,3 +1,9 @@
+#!/bin/bash
+#code recorded by tech cochi
+#https://youtube.com/c/techcochi
+#https://github.com/rixon-cochi
+#https://techcochi.blogspot.com
+
 trap 'printf "\n";stop;exit 1' 2
 deps() {
 command -v php > /dev/null 2>&1 || { echo >&2 "PHP is not installed ! Install it."; exit 1; }
@@ -7,13 +13,13 @@ command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip is not installed ! Instal
 }
 banner() {
 clear
-printf " \e[91m ███████╗\e[0m\e[1;92m ███╗   ███╗ \e>
-printf " \e[91m ██╔════╝\e[0m\e[1;92m ████╗ ████║ \e>
-printf " \e[91m ███████╗\e[0m\e[1;92m ██╔████╔██║ \e>
-printf " \e[91m ╚════██║\e[0m\e[1;92m ██║╚██╔╝██║ \e>
-printf " \e[91m ███████║\e[0m\e[1;92m ██║ ╚═╝ ██║ \e>
-printf " \e[91m ╚══════╝\e[0m\e[1;92m ╚═╝     ╚═╝ \e>
-printf " \e[44m   CODE RECORED BY TECH COCHI \e[0m\n"
+printf " \e[91m ███████╗\e[0m\e[1;92m ███╗   ███╗ \e[0m\e[1;93m ███████╗ \e[0m\n"
+printf " \e[91m ██╔════╝\e[0m\e[1;92m ████╗ ████║ \e[0m\e[1;93m ██╔════╝ \e[0m\n"
+printf " \e[91m ███████╗\e[0m\e[1;92m ██╔████╔██║ \e[0m\e[1;93m █████╗ \e[0m\n"
+printf " \e[91m ╚════██║\e[0m\e[1;92m ██║╚██╔╝██║ \e[0m\e[1;93m ██╔══╝ \e[0m\n"
+printf " \e[91m ███████║\e[0m\e[1;92m ██║ ╚═╝ ██║ \e[0m\e[1;93m ██║ \e[0m\n"
+printf " \e[91m ╚══════╝\e[0m\e[1;92m ╚═╝     ╚═╝ \e[0m\e[1;93m ╚═╝ \e[0m\n"
+printf " \e[44m   CODE RE BY TECH COCHI \e[0m\n"
 printf " \n"
 }
 menu() {
