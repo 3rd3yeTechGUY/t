@@ -39,6 +39,11 @@ printf " \e[1;31m[\e[0m\e[1;77m13\e[0m\e[1;31m]\e[0m\e[1;92m Update \e[0m\n"
 printf " \e[0m\e[1;31m[\e[0m\e[1;77m00\e[0m\e[1;31m] \e[0m\e[1;92mExit\e[0m\n"
 printf " \e[0m\n"        
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Select an option: \e[0m\e[1;91m\en' option
+trap ctrl_c INT
+ctrl_c(){
+clear
+bash c.sh
+}
 if [[ $option == 1 || $option == 01 ]]; then
 facebook
 elif [[ $option == 2 || $option == 02 ]]; then
