@@ -22,8 +22,8 @@ printf " \e[91m ╚══════╝\e[0m\e[1;92m ╚═╝     ╚═╝ \e
 printf " \e[44m   CODE RE BY TECH COCHI \e[0m\n"
 printf " \n"
 }
-trap ctrl_t INT
-ctrl_t(){
+trap ctrl_T INT
+ctrl_T(){
 clear
 bash c.sh
 }
